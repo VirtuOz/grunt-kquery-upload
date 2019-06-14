@@ -1,0 +1,41 @@
+{
+  "name": "grunt-kquery-upload",
+  "description": "Grunt plugin for kquery upload module",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Nicholas Grippo",
+    "email": "nicholas.grippo@nuance.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git.labs.nuance.com/nicholas_grippo/grunt-kquery-upload.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "kquery-upload": "git+https://git.labs.nuance.com/nicholas_grippo/kquery-upload.git"
+  }
+}
