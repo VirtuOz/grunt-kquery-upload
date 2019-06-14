@@ -36,6 +36,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "kquery-upload": "git+https://git.labs.nuance.com/nicholas_grippo/kquery-upload.git"
+    "kquery-upload": "git+ssh://git@github.com:VirtuOz/kquery-upload.git"
   }
 }
